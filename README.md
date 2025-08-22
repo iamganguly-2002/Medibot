@@ -1,7 +1,7 @@
-🩺 Medibot – AI-Powered Medical Chatbot
+##🩺 Medibot – AI-Powered Medical Chatbot
 Medibot is an AI-powered medical chatbot designed to assist users by answering health-related queries. It combines the power of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to provide context-aware, reliable responses. The system integrates a FAISS vector database for semantic search and is deployed using Streamlit for a user-friendly interface.
 
-🚀 Features
+#🚀 Features
 ✅ RAG-based Pipeline: Combines local medical knowledge with LLMs for accurate responses.
 
 ✅ FAISS Vector Store: Efficient semantic search over medical documents.
@@ -12,7 +12,7 @@ Medibot is an AI-powered medical chatbot designed to assist users by answering h
 
 ✅ Secure API Handling: Utilizes .env files for managing sensitive keys (Hugging Face token, etc.).
 
-📂 Project Structure
+#📂 Project Structure
 .
 ├── vectorstore/               # Stores FAISS vector database
 ├── connect_memory_with_llm.py   # Python script for RAG + LLM integration
@@ -21,7 +21,7 @@ Medibot is an AI-powered medical chatbot designed to assist users by answering h
 ├── .env                       # Environment variables (API keys)
 └── README.md                  # Project documentation
 
-⚙️ Installation
+#⚙️ Installation
 1.Clone the repository:
 
     git clone https://github.com/iamganguly-2002/Medibot.git
@@ -48,27 +48,29 @@ Medibot is an AI-powered medical chatbot designed to assist users by answering h
 
 Open the browser at http://localhost:8501 to interact with Medibot.
 
-🧠 Tech Stack :
-1.Python: 3.10+
+#🧠 Tech Stack :
 
-2.Streamlit: Frontend framework for the web interface.
+    1.Python: 3.10+
 
-3.LangChain: Framework for building the RAG pipeline.
+    2.Streamlit: Frontend framework for the web interface.
 
-4.FAISS: Vector database for semantic search.
+    3.LangChain: Framework for building the RAG pipeline.
 
-5.Hugging Face: Utilized for the Mistral LLM.
+    4.FAISS: Vector database for semantic search.
 
-📌 Keywords :
-1.Retrieval-Augmented Generation (RAG)
+    5.Hugging Face: Utilized for the Mistral LLM.
 
-2.Medical Chatbot
+#📌 Keywords :
 
-3.Large Language Model (LLM)
+    1.Retrieval-Augmented Generation (RAG)
 
-4.FAISS Vector Store
+    2.Medical Chatbot
 
-5.Streamlit
+    3.Large Language Model (LLM)
+
+    4.FAISS Vector Store
+
+    5.Streamlit
 
 🔮 Future Scope
 Multilingual Support: Implement support for multiple languages to serve a wider user base.
