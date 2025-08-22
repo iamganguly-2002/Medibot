@@ -22,59 +22,53 @@ Medibot is an AI-powered medical chatbot designed to assist users by answering h
 └── README.md                  # Project documentation
 
 ⚙️ Installation
-Clone the repository:
+1.Clone the repository:
 
-git clone https://github.com/iamganguly-2002/Medibot.git
-cd Medibot
+    git clone https://github.com/iamganguly-2002/Medibot.git
+    cd Medibot
 
-Create and activate a virtual environment:
+2.Create and activate a virtual environment:
 
-On Linux/macOS:
+    python -m venv .venv
+    source .venv/bin/activate   # On Linux/Mac
+    .venv\Scripts\activate      # On Windows
 
-python -m venv .venv
-source .venv/bin/activate
+3.Install dependencies:
 
-On Windows:
+    pip install -r requirements.txt
 
-python -m venv .venv
-.venv\Scripts\activate
+4.Add your Hugging Face API key in a .env file:
 
-Install dependencies:
 
-pip install -r requirements.txt
+    HUGGINGFACEHUB_API_TOKEN=your_token_here
 
-Add your Hugging Face API key:
-Create a new file named .env in the root directory of the project and add your token:
+5.Run the App:
 
-HUGGINGFACEHUB_API_TOKEN=your_token_here
-
-Run the App:
-
-streamlit run app.py
+    streamlit run app.py
 
 Open the browser at http://localhost:8501 to interact with Medibot.
 
 🧠 Tech Stack
-Python: 3.10+
+1.Python: 3.10+
 
-Streamlit: Frontend framework for the web interface.
+2.Streamlit: Frontend framework for the web interface.
 
-LangChain: Framework for building the RAG pipeline.
+3.LangChain: Framework for building the RAG pipeline.
 
-FAISS: Vector database for semantic search.
+4.FAISS: Vector database for semantic search.
 
-Hugging Face: Utilized for the Mistral LLM.
+5.Hugging Face: Utilized for the Mistral LLM.
 
 📌 Keywords
-Retrieval-Augmented Generation (RAG)
+1.Retrieval-Augmented Generation (RAG)
 
-Medical Chatbot
+2.Medical Chatbot
 
-Large Language Model (LLM)
+3.Large Language Model (LLM)
 
-FAISS Vector Store
+4.FAISS Vector Store
 
-Streamlit
+5.Streamlit
 
 🔮 Future Scope
 Multilingual Support: Implement support for multiple languages to serve a wider user base.
