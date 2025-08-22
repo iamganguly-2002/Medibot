@@ -48,7 +48,7 @@ Medibot is an AI-powered medical chatbot designed to assist users by answering h
 
 Open the browser at http://localhost:8501 to interact with Medibot.
 
-🧠 Tech Stack
+🧠 Tech Stack :
 1.Python: 3.10+
 
 2.Streamlit: Frontend framework for the web interface.
@@ -59,7 +59,7 @@ Open the browser at http://localhost:8501 to interact with Medibot.
 
 5.Hugging Face: Utilized for the Mistral LLM.
 
-📌 Keywords
+📌 Keywords :
 1.Retrieval-Augmented Generation (RAG)
 
 2.Medical Chatbot
