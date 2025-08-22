@@ -2,7 +2,8 @@
 
    Medibot is an AI-powered medical chatbot designed to assist users by answering health-related queries. It combines the power of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to provide context-aware, reliable responses. The system integrates a FAISS vector database for semantic search and is  deployed using Streamlit for a user-friendly interface.
 
-#🚀 Features
+*🚀 Features:*
+
 ✅ RAG-based Pipeline: Combines local medical knowledge with LLMs for accurate responses.
 
 ✅ FAISS Vector Store: Efficient semantic search over medical documents.
@@ -13,7 +14,7 @@
 
 ✅ Secure API Handling: Utilizes .env files for managing sensitive keys (Hugging Face token, etc.).
 
-#📂 Project Structure
+*📂 Project Structure:*
 .
 ├── vectorstore/               # Stores FAISS vector database
 ├── connect_memory_with_llm.py   # Python script for RAG + LLM integration
@@ -22,7 +23,8 @@
 ├── .env                       # Environment variables (API keys)
 └── README.md                  # Project documentation
 
-#⚙️ Installation
+*⚙️ Installation:*
+
 1.Clone the repository:
 
     git clone https://github.com/iamganguly-2002/Medibot.git
@@ -49,7 +51,7 @@
 
 Open the browser at http://localhost:8501 to interact with Medibot.
 
-#🧠 Tech Stack :
+*🧠 Tech Stack :*
 
     1.Python: 3.10+
 
@@ -61,7 +63,7 @@ Open the browser at http://localhost:8501 to interact with Medibot.
 
     5.Hugging Face: Utilized for the Mistral LLM.
 
-#📌 Keywords :
+*📌 Keywords :*
 
     1.Retrieval-Augmented Generation (RAG)
 
@@ -73,18 +75,12 @@ Open the browser at http://localhost:8501 to interact with Medibot.
 
     5.Streamlit
 
-🔮 Future Scope
-Multilingual Support: Implement support for multiple languages to serve a wider user base.
+*🔮 Future Scope:*
 
-Speech-to-Text Integration: Allow users to interact with the chatbot using voice commands.
+    Multilingual Support: Implement support for multiple languages to serve a wider user base.
 
-Real Doctor Integration: Integrate with a database or API of certified doctors for more specific and personalized consultations.
+    Speech-to-Text Integration: Allow users to interact with the chatbot using voice commands.
 
-📸 Screenshots
-Add screenshots of your Streamlit app here to showcase its user interface and functionality.
+    Real Doctor Integration: Integrate with a database or API of certified doctors for more specific and personalized consultations.
 
-👨‍🏫 Faculty Guide
-Br. Tamal Maharaj
 
-👉 GitHub Repository
-https://github.com/iamganguly-2002/Medibot
