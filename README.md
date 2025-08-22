@@ -1,4 +1,4 @@
-##🩺 Medibot – AI-Powered Medical Chatbot
+**🩺 Medibot – AI-Powered Medical Chatbot**
 Medibot is an AI-powered medical chatbot designed to assist users by answering health-related queries. It combines the power of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to provide context-aware, reliable responses. The system integrates a FAISS vector database for semantic search and is deployed using Streamlit for a user-friendly interface.
 
 #🚀 Features
